@@ -79,13 +79,12 @@ export default function App() {
 
   return (
     <div className="min-h-screen w-full bg-[#050505] text-slate-300 font-sans selection:bg-amber-500 selection:text-black overflow-x-hidden">
-      {/* Technical Grid Background */}
+
       <div className="fixed inset-0 pointer-events-none opacity-[0.03]" style={{ 
         backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)', 
         backgroundSize: '40px 40px' 
       }} />
       
-      {/* Dynamic Spotlight */}
       <div 
         className="fixed inset-0 pointer-events-none transition-opacity duration-1000"
         style={{ 
@@ -94,7 +93,7 @@ export default function App() {
       />
 
       <div className="max-w-7xl mx-auto px-6 py-12 md:py-24 relative z-10 pointer-events-auto">
-        {/* Navigation / Meta */}
+
         <nav className="flex justify-between items-center mb-24 relative z-[100]">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-white text-black flex items-center justify-center font-black text-lg">L</div>
@@ -113,7 +112,7 @@ export default function App() {
           </button> */}
         </nav>
 
-        {/* Hero Section */}
+
         <header className="mb-32 max-w-4xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
@@ -130,7 +129,7 @@ export default function App() {
           </p>
         </header>
 
-        {/* Project Grid - Brutalist Style */}
+
         <div id="projects-section" className="grid grid-cols-1 gap-px bg-white/10 border border-white/10 mb-32 relative z-20">
           {PROJECTS.map((project, idx) => (
             <button 
@@ -176,7 +175,6 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Background Number */}
               <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/4 text-[20vw] font-black text-white/[0.02] pointer-events-none select-none">
                 0{idx + 1}
               </div>
@@ -184,7 +182,6 @@ export default function App() {
           ))}
         </div>
 
-        {/* Capabilities Section */}
         <section id="capabilities-section" className="mb-32">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="space-y-6">
@@ -217,7 +214,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer id="footer-section" className="pt-24 border-t border-white/10 relative z-30">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
             <div className="space-y-4">
