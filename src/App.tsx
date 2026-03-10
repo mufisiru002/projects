@@ -105,12 +105,12 @@ export default function App() {
             <button onClick={() => document.getElementById('capabilities-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 hover:text-white transition-colors cursor-pointer">Capabilities</button>
             <button onClick={() => document.getElementById('footer-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 hover:text-white transition-colors cursor-pointer">Contact</button>
           </div>
-          <button 
+          {/* <button 
             onClick={() => alert('Resume download initiated (demo)')}
             className="px-5 py-2 border border-white/10 text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all cursor-pointer relative z-[110]"
           >
             Resume.pdf
-          </button>
+          </button> */}
         </nav>
 
         {/* Hero Section */}
@@ -125,7 +125,7 @@ export default function App() {
             SYSTEMS.
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl leading-relaxed font-medium">
-            A specialized laboratory focused on high-performance frontend engineering, 
+            A project focused on high-performance frontend engineering, 
             real-time distributed systems, and advanced visual computing.
           </p>
         </header>
@@ -236,11 +236,11 @@ export default function App() {
                 </div>
               </div>
               <div className="space-y-4">
-                <div className="text-[9px] font-bold uppercase tracking-widest text-slate-500">Download</div>
+                {/* <div className="text-[9px] font-bold uppercase tracking-widest text-slate-500">Download</div>
                 <button className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-white hover:text-amber-500 transition-colors">
                   <Download className="w-4 h-4" /> Full Source Code
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           
