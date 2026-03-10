@@ -232,11 +232,11 @@ export default function App() {
                 </div>
               </div>
               <div className="space-y-4">
-                {/* <div className="text-[9px] font-bold uppercase tracking-widest text-slate-500">Download</div>
+                 {/* <div className="text-[9px] font-bold uppercase tracking-widest text-slate-500">Download</div>
                 <button className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-white hover:text-amber-500 transition-colors">
                   <Download className="w-4 h-4" /> Full Source Code
-                </button>
-              </div> */}
+                </button> */}
+              </div> 
             </div>
           </div>
           
