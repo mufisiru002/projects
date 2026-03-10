@@ -84,7 +84,7 @@ Styling:
 
 Clone the repository.
 
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/mufisiru002/projects.git
 
 Navigate into the project.
 
